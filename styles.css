@@ -1,0 +1,62 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ffeee2;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #282828;
+    color: #ffcccb;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    background-color: #ffcccb;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px 0;
+}
+
+#latest-blog {
+    margin-bottom: 40px;
+}
+
+#legacy-blogs.hidden {
+    display: none;
+}
+
+#blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
